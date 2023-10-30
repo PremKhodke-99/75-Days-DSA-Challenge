@@ -1,0 +1,21 @@
+Problem Description
+Given a non-empty array of digits representing a non-negative integer, plus one to the integer and return the same list.
+
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+Input format
+You will be given a list of integers.
+
+Output format
+Return a list of integer +1.
+
+Sample Input 1
+1 2 3
+
+Sample Output 1
+1 2 4
+
+Explanation 1
+The array represents the integer 123.

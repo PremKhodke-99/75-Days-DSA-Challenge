@@ -1,0 +1,21 @@
+Problem Description
+You are given a X positive integer. You need to find the N-th root of X.
+
+If the N-th root is in decimal you need to print its floor value e.g, floor(3.23) = 3.
+
+Input format
+First line contains T i.e, the number of test cases.
+
+Each test case has a single line that contains two positive integers, X and N.
+
+Output format
+For each test case print the floor(N-th root of X) in a new line.
+
+Sample Input 1
+4 2
+
+Sample Output 1
+2
+
+Explanation
+For X = 4 and N = 2 => (4) ^ (1/2) = 2. And floor(2) = 2

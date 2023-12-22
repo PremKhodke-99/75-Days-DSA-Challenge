@@ -11,6 +11,7 @@ function addOne(digits){
 
     if(carry){
         digits.unshift(carry);
+        // return [1].concat(digits);
     }
     return digits;
 }

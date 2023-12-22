@@ -1,5 +1,5 @@
 function rotateImage(arre) {
-    let n = arre.length;
+    let n = arre.length; //3
     let ans = new Array(n)
     for(let i = 0; i < n; i++){
         ans[i] = new Array(n);
@@ -7,7 +7,7 @@ function rotateImage(arre) {
 
     for(let i = 0; i < n; i++){
         for(let j = n - 1; j >= 0; j--){
-            ans[j][i] = arre[n -i -1][j];
+            ans[j][i] = arre[n -i -1][j]; //2,0 = 2,2; 1,0 = 2,1; 0,0 = 2,0
         }
     }
     return ans;

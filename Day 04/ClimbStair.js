@@ -5,7 +5,7 @@ function number_of_ways(n){
     dp[0] = 1;
     for(let i = 1; i <= n; i++){
         for(let j = 1; j <= 3 && i - j >= 0; j++){
-            dp[i] = (dp[i] + dp[i-j])%mod;
+            console.log(dp[i] = (dp[i] + dp[i-j])%mod)
         }
     }
     return dp[n];
